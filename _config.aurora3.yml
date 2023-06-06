@@ -1,0 +1,149 @@
+#! ---------------------------------------------------------------
+#! Aurora Theme for Hexo
+#! ---------------------------------------------------------------
+#! Designed & Coded By TriDiamond
+#! ---------------------------------------------------------------
+
+#! ---------------------------------------------------------------
+#! Site Configs
+#！ @docs https://aurora.tridiamond.tech/guide/configuration.html
+#! ---------------------------------------------------------------
+site:
+  subtitle: Nike_Yu Blog
+  author: 虞建辉
+  nick: Nike_Yu
+  description: 好的程序员从来不只写代码，他们还致力于优雅地解决问题
+  link: '/'
+  language: cn
+  multi_language: true
+  logo: https://avatars.githubusercontent.com/u/7228360?s=400&u=5b2242e59ba02c0e1e7bc43eb68b070e26ec6a6e&v=4
+  avatar: https://avatars.githubusercontent.com/u/7228360?s=400&u=5b2242e59ba02c0e1e7bc43eb68b070e26ec6a6e&v=4
+  beian:
+    number: ''
+    link: ''
+  police_beian:
+    number: ''
+    link: ''
+
+#! ---------------------------------------------------------------
+#! Authors Configs
+#！ @docs https://aurora.tridiamond.tech/guide/authors.html
+#! ---------------------------------------------------------------
+authors:
+  Nike_Yu:
+    name: Nike_Yu
+    avatar: https://avatars.githubusercontent.com/u/7228360?s=400&u=5b2242e59ba02c0e1e7bc43eb68b070e26ec6a6e&v=4
+    link: https://github.com/yujianhui1993
+    description: '好的程序员从来不只写代码，他们还致力于优雅地解决问题'
+    socials:
+      github: https://github.com/yujianhui1993
+
+#! ---------------------------------------------------------------
+#! Menu Configs
+#！ @docs https://aurora.tridiamond.tech/guide/menu.html
+#! ---------------------------------------------------------------
+menu:
+  Tags: true
+  Archives: false
+  About: true
+
+#! ---------------------------------------------------------------
+#! Theme Config
+#! @docs https://aurora.tridiamond.tech/guide/theme.html
+#! ---------------------------------------------------------------
+theme:
+  dark_mode: true
+  profile_shape: circle # support `circle`, `diamond`, `rounded`
+  feature: false
+  gradient:
+    color_1: '#24c6dc'
+    color_2: '#5433ff'
+    color_3: '#ff0099'
+
+#! ---------------------------------------------------------------
+#! Social Configs
+#! @docs https://aurora.tridiamond.tech/guide/social.html
+#! ---------------------------------------------------------------
+socials:
+  github: 'https://github.com/yujianhui1993?tab=repositories'
+  customs:
+  ##! Example:
+  ##! --- Using SVG
+  # bilibili:
+  #   icon: http://localhost:4000/svg/bilibili.svg
+  #   link: https://live.bilibili.com/22619211
+
+  ##! --- Using IconFont
+  # baidu:
+  #   icon: iconfont icon-baidu
+  #   link: https://live.bilibili.com/22619211
+
+  ##! --- Using FontAwesome
+  # book:
+  #   icon: far fa-address-book
+  #   link: https://live.bilibili.com/22619211
+
+#! ---------------------------------------------------------------
+#! Site Meta Configs
+#! @docs https://aurora.tridiamond.tech/guide/theme.html
+#! ---------------------------------------------------------------
+site_meta:
+  cdn: cn
+  favicon:
+  description: ''
+  keywords: ''
+  author: ''
+
+#! ---------------------------------------------------------------
+#! Plugins
+#! @docs https://aurora.tridiamond.tech/guide/plugins.html
+#! ---------------------------------------------------------------
+
+# For local development only!
+gitalk:
+  enable: false
+  autoExpand: true
+  clientID: '740fedd9deb68cc719fe'
+  clientSecret: '9ff438c44e05a5bb9239d1462b205a6aabd9140d'
+  repo: 'blog-comments'
+  owner: 'yujianhui1993'
+  admin: ['Nike_yu']
+  id: uid
+  language: cn
+  distractionFreeMode: true
+  recentComment: true
+  proxy: ''
+
+# Valine comment plugin (recommended!)
+# see https://valine.js.org/quickstart.html
+valine:
+  enable: true
+  app_id: KS1c6J7x7t0M8k1DiPbNcY7I-gzGzoHsz
+  app_key: h0voCZVBY7FaZAS5sQC2iuzV
+  avatar: 'wavatar'
+  placeholder: 把你的想法抛在脑后~
+  visitor: true
+  lang: cn
+  avatarForce: false
+  meta: ['nick', 'mail']
+  requiredFields: []
+  admin: 'Nike_yu'
+  recentComment: true
+
+#! ---------------------------------------------------------------
+#! Enable Aurora Bot Dia
+#! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
+#! ---------------------------------------------------------------
+aurora_bot:
+  enable: true
+  locale: cn
+  bot_type: dia
+  tips:
+
+#! ---------------------------------------------------------------
+#! Injections
+#! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
+#! ---------------------------------------------------------------
+injects:
+  scripts:
+  css:
