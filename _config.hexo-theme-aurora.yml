@@ -117,7 +117,7 @@ gitalk:
 # Valine comment plugin (recommended!)
 # see https://valine.js.org/quickstart.html
 valine:
-  enable: true
+  enable: false
   app_id: KS1c6J7x7t0M8k1DiPbNcY7I-gzGzoHsz
   app_key: h0voCZVBY7FaZAS5sQC2iuzV
   avatar: 'wavatar'

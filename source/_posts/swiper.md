@@ -5,7 +5,8 @@ tags:
   - 技术分享
 categories:
   - 文章
-# cover: https://cover.png
+cover: /blog/post/swiper/tu01.png
+comments: false
 # feature: true
 ---
 
@@ -22,14 +23,14 @@ categories:
 ## 如何实现 swiper 左中右 三块布局
 
 ### 效果图
-![效果图](./img/tu01.png)
+![效果图](./swiper/tu01.png)
 
 离得最近的是van-swipe的固定宽度这个模版
-![van-swiper](./img/tu03.png)
+![van-swiper](./swiper/tu03.png)
 
 我们只要想办法实现如下效果
 
-![van-swiper](./img/tu02.png)
+![van-swiper](./swiper/tu02.png)
 
 
 ## 实现步骤逻辑

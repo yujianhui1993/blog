@@ -7,6 +7,7 @@ categories:
   - 文章
 # cover: https://cover.png
 # feature: true
+comments: false
 ---
 # h5页面调用摄像头
 

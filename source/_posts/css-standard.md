@@ -5,7 +5,7 @@ tags:
   - css规范
 categories:
   - 规范
-# cover: https://cover.png
+cover: ../../../images/tu01.png
 # feature: true
 ---
 
@@ -165,7 +165,7 @@ css 规范文档
 
 ### 示例
 
-![示例](./img/css-bem-demo.jpg)
+![示例](./css-standard/css-bem-demo.jpg)
 
 这样的卡片是一个单独的块
 
