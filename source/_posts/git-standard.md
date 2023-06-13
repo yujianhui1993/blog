@@ -7,6 +7,7 @@ categories:
   - 规范
 # cover: https://cover.png
 # feature: true
+comments: false
 ---
 
 # Git规范

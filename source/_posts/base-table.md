@@ -7,13 +7,14 @@ categories:
   - 组件
 # cover: https://cover.png
 # feature: true
+comments: false
 ---
 # table 列表
 
 封装table列表并将分页封装其中 目的实现配置话开发。
 
 ## 演示案例
-::: demo 对el-table 的二次封装，内置了分页pagination，数据配置化，也可通过插槽实现自定义样式。
+:::details 对el-table 的二次封装，内置了分页pagination，数据配置化，也可通过插槽实现自定义样式。
 ```vue
 <template>
   <div>

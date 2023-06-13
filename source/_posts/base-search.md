@@ -7,7 +7,7 @@ categories:
   - 组件
 # cover: https://cover.png
 # feature: true
-# comments: true
+comments: false
 ---
 # search 搜索框
 
@@ -17,7 +17,7 @@ categories:
 
 ### 示例一
 
-::: demo 通用页面搜索使用，支持input slect date, 多条件时支持展开缩放功能，只需配置搜索搜索项
+:::details 通用页面搜索使用，支持input slect date, 多条件时支持展开缩放功能，只需配置搜索搜索项
 
 ```vue
 <template>
@@ -101,7 +101,7 @@ categories:
 
 ### 示例二
 
-::: demo 通用页面搜索使用，支持input slect date, 多条件时支持展开缩放功能，只需配置搜索搜索项
+:::details 通用页面搜索使用，支持input slect date, 多条件时支持展开缩放功能，只需配置搜索搜索项
 
 ```vue
 <template>
