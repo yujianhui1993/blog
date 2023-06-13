@@ -190,7 +190,7 @@
           </div>
         </div>
         <template v-if="post.title && post.text && post.uid">
-          <div id="comments">
+          <div id="comments" v-if="post.comments">
             <Comment :title="post.title" :body="post.text" :uid="post.uid" />
           </div>
         </template>
