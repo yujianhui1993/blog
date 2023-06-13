@@ -44,7 +44,7 @@ comments: false
 ### 主要代码块
 
 ##### 设置滑动后处理样式
-``` vue
+```vue
 
      // 设置样式
     setSwiperStyle(index) {

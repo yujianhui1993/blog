@@ -103,10 +103,10 @@ site_meta:
 gitalk:
   enable: false
   autoExpand: true
-  clientID: '740fedd9deb68cc719fe'
-  clientSecret: '9ff438c44e05a5bb9239d1462b205a6aabd9140d'
-  repo: 'blog-comments'
-  owner: 'yujianhui1993'
+  clientID: ''
+  clientSecret: ''
+  repo: ''
+  owner: ''
   admin: ['Nike_yu']
   id: uid
   language: cn
@@ -118,8 +118,8 @@ gitalk:
 # see https://valine.js.org/quickstart.html
 valine:
   enable: false
-  app_id: KS1c6J7x7t0M8k1DiPbNcY7I-gzGzoHsz
-  app_key: h0voCZVBY7FaZAS5sQC2iuzV
+  app_id: 
+  app_key: 
   avatar: 'wavatar'
   placeholder: 把你的想法抛在脑后~
   visitor: true

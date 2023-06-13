@@ -7,21 +7,18 @@ categories:
   - 规范
 # cover: https://cover.png
 # feature: true
+comments: false
 ---
 
 # 阿里Vue 规范
 
-
-## Vue 项目规范
-
-### Vue 编码基础
-
-#### vue 项目规范以 Vue [官方规范](https://cn.vuejs.org/v2/style-guide/) 中的 A 规范为基础，在其上面进行项目开发，故所有代码均遵守该规范。
-#### 请仔仔细细阅读 Vue 官方规范，切记，此为第一步。
-
-### 组件规范
-
-#### 组件名为多个单词。
+> - Vue 项目规范
+> - Vue 编码基础
+> - vue 项目规范以 Vue [官方规范](https://cn.vuejs.org/v2/style-guide/) 中的 A 规范为基础，在其上面进行项目开发，故所有代码均遵守该规范。
+> - 请仔仔细细阅读 Vue 官方规范，切记，此为第一步。
+> - 组件规范
+> - 组件名为多个单词。
+ 
 
 >组件名应该始终是多个单词组成（大于等于 2），且命名规范为KebabCase格式。
 这样做可以避免跟现有的以及未来的 HTML 元素相冲突，因为所有的 HTML 元素名称都是单个单词的。

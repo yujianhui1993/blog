@@ -31,6 +31,7 @@ comments: false
 
 
 ### 代码 
+:::details 点击查看内容
 ```vue
 <template>
   <div>
@@ -194,6 +195,7 @@ video {
 </style>
 
 ```
+:::
 
 ## 附上压缩文件方法
 
