@@ -3,10 +3,9 @@ title: css 规范
 date: 2022-10-15 18:49:36
 tags:
   - css规范
-top: true
 categories:
   - 规范
-cover: ../../../images/tu01.png
+cover: '/blog/post/css-standard/css-cover.jpeg'
 # feature: true
 comments: false
 ---

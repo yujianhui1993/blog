@@ -5,7 +5,7 @@ tags:
   - Vue 规范
 categories:
   - 规范
-# cover: https://cover.png
+cover: '/blog/post/ali-vue/vue-cover.gif'
 # feature: true
 comments: false
 ---

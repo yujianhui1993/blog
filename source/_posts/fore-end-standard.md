@@ -5,7 +5,7 @@ tags:
   - 命名规范
 categories:
   - 规范
-# cover: https://cover.png
+cover: '/blog/post/fore-end-standard/web-cover.webp'
 # feature: true
 comments: false
 ---

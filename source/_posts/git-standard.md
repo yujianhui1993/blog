@@ -5,7 +5,7 @@ tags:
   - Git 规范
 categories:
   - 规范
-# cover: https://cover.png
+cover: '/blog/post/git-standard/git-cover.jpeg'
 # feature: true
 comments: false
 ---
