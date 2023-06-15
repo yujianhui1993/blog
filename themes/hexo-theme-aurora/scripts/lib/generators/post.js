@@ -65,9 +65,32 @@ class PostGenerator {
   }
 
   sortByDate() {
-    this.data = this.data.sort('-date').filter(function (post) {
+    // 初始筛选数据
+    const initData = this.data.filter(function (post) {
       return post.published
     })
+    // 置顶数据列表
+    let topList = []
+    // 默认数据列表
+    let defList = []
+    // 将置顶数据提取
+    for(const key of initData.data) {
+      if(key['top'] == true) {
+        topList.push(key)
+      } else {
+        defList.push(key)
+      }
+    }
+    // 对数据进行排序 按时间倒序
+    topList = topList.sort((a, b) => {
+      if(a.date > b.date) return -1
+      return 1
+    })
+    defList = defList.sort((a, b) => {
+      if(a.date > b.date) return -1
+      return 1
+    })
+    this.data.data = [...topList, ...defList]
   }
 
   reorderFeaturePosts() {

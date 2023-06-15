@@ -67,8 +67,8 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
-  order_by: -date
+  per_page: 6
+  order_by: -tags
 
 # Category & Tag
 default_category: uncategorized
@@ -110,4 +110,4 @@ deploy:
   type: 'git'
   repo: https://github.com/yujianhui1993/blog #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
   branch: gh-pages
-  message: 'gjkasjd'
+  message: '新增文章'
