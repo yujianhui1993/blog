@@ -6,7 +6,7 @@ tags:
   - 技术分享
 categories:
   - 文章
-cover: /blog/post/zimg/zimg-cover.jpg
+cover: /post/zimg/zimg-cover.jpg
 # feature: true
 comments: false
 ---

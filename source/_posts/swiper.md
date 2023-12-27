@@ -6,7 +6,7 @@ tags:
   - 技术分享
 categories:
   - 文章
-cover: /blog/post/swiper/tu01.png
+cover: /post/swiper/tu01.png
 comments: false
 # feature: true
 ---

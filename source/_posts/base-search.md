@@ -5,7 +5,7 @@ tags:
   - 组件封装
 categories:
   - 组件
-cover: '/blog/post/base-search/search-cover.webp'
+cover: '/post/base-search/search-cover.webp'
 # feature: true
 comments: false
 ---

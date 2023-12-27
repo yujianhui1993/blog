@@ -6,7 +6,7 @@ tags:
   - 技术分享
 categories:
   - 文章
-cover: '/blog/post/h5medio/h5-cover.jpeg'
+cover: '/post/h5medio/h5-cover.jpeg'
 # feature: true
 comments: false
 ---

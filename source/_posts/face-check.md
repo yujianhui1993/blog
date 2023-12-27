@@ -6,7 +6,7 @@ tags:
 top: true
 categories:
   - 文章
-cover: /blog/post/face-check/face-cover.png
+cover: /post/face-check/face-cover.png
 # feature: true
 comments: false
 ---

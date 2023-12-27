@@ -5,7 +5,7 @@ tags:
   - 组件封装
 categories:
   - 组件
-cover: '/blog/post/base-table/table-cover.png'
+cover: '/post/base-table/table-cover.png'
 # feature: true
 comments: false
 ---

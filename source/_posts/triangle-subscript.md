@@ -6,7 +6,7 @@ tags:
   - 技术分享
 categories:
   - 文章
-cover: /blog/post/triangle-subscript/sjjb.webp
+cover: /post/triangle-subscript/sjjb.webp
 # feature: true
 comments: false
 ---

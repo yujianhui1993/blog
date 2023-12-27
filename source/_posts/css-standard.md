@@ -5,7 +5,7 @@ tags:
   - css规范
 categories:
   - 规范
-cover: '/blog/post/css-standard/css-cover.jpeg'
+cover: '/post/css-standard/css-cover.jpeg'
 # feature: true
 comments: false
 ---

@@ -9,7 +9,7 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: Nike_Yu Blog
+  subtitle: 晓荞桃花扇
   author: 虞建辉
   nick: Nike_Yu
   description: 好的程序员从来不只写代码，他们还致力于优雅地解决问题
@@ -19,10 +19,10 @@ site:
   logo: https://avatars.githubusercontent.com/u/7228360?s=400&u=5b2242e59ba02c0e1e7bc43eb68b070e26ec6a6e&v=4
   avatar: https://avatars.githubusercontent.com/u/7228360?s=400&u=5b2242e59ba02c0e1e7bc43eb68b070e26ec6a6e&v=4
   beian:
-    number: ''
+    number: '闽ICP备2023010434号-1'
     link: ''
   police_beian:
-    number: ''
+    number: '闽ICP备2023010434号'
     link: ''
 
 #! ---------------------------------------------------------------
