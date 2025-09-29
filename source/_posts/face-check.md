@@ -1,12 +1,12 @@
 ---
-title: vue项目基于openvvjs实现的人脸识别
+title: vue项目基于opencvjs实现的人脸识别
 date: 2023-05-10 10:00:00
 tags:
   - 技术分享
 top: true
 categories:
   - 文章
-cover: /post/face-check/face-cover.png
+cover: /post/face-check/face-cover.jpg
 # feature: true
 comments: false
 ---

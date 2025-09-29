@@ -51,12 +51,18 @@
             class="h-1 w-14 rounded-full mt-2"
             :style="gradientBackground"
           />
-
-          <p
+          <div
+            style="color: red"
+            v-if="authorData.description"
+            class="pt-6 px-10 w-full text-sm text-center"
+          >
+            <TextAnim :text="authorData.description" :delay="0.1"></TextAnim>
+          </div>
+          <!-- <p
             v-if="authorData.description"
             class="pt-6 px-10 w-full text-sm text-center"
             v-html="authorData.description"
-          />
+          /> -->
           <p
             v-else
             class="pt-6 px-10 w-full text-sm text-center flex flex-col gap-2"
@@ -99,10 +105,11 @@ import { useAuthorStore } from '@/stores/author'
 import { computed, defineComponent, onMounted, ref, toRefs, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import Social from '@/components/Social.vue'
+import TextAnim from './TextAnim.vue'
 
 export default defineComponent({
   name: 'ObProfile',
-  components: { Social },
+  components: { Social, TextAnim },
   props: {
     author: {
       type: String,

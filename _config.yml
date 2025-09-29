@@ -4,7 +4,7 @@
 
 # Site
 title: 虞建辉bolg
-subtitle: '好的程序员从来不只写代码，他们还致力于优雅地解决问题'
+subtitle: '好的程序员从来不只写代码，他们还致力于优雅地解决问题！'
 description: '个人工作中的技术分享，欢迎打扰！'
 keywords:
 author: 虞建辉
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://yujianhui1993.github.io/
+url: https://yujianhui1993.gitee.io/blog/
 # root: '/'
 permalink: /post/:title.html  # :year/:month/:day/:title/
 permalink_defaults:
@@ -108,6 +108,6 @@ theme: hexo-theme-aurora
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: https://github.com/yujianhui1993/blog #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: gh-pages
+  repo: https://gitee.com/yujianhui1993/blog.git
+  branch: master
   message: '新增文章'
