@@ -1,0 +1,17 @@
+# Aurora Theme CDN Configuration for China
+scripts:
+  - '<script src="https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.prod.js"></script>'
+  - '<script src="https://cdn.jsdelivr.net/npm/vue-router@4.2.4/dist/vue-router.global.prod.js"></script>'
+  - '<script src="https://cdn.jsdelivr.net/npm/pinia@2.1.6/dist/pinia.iife.prod.js"></script>'
+
+css:
+  - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">'
+  - '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">'
+
+plugins:
+  gitalk:
+    - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.css">'
+    - '<script src="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.min.js"></script>'
+  
+  valine:
+    - '<script src="https://cdn.jsdelivr.net/npm/valine@1.5.1/dist/Valine.min.js"></script>'
