@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "开始构建..."
+npx hexo clean
 npm run build
 
 echo "部署到 GitHub..."
