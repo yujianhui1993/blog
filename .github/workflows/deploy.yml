@@ -51,7 +51,9 @@ jobs:
           fi
 
       - name: Build site
-        run: npm run build
+        run: |
+          npm run clean
+          npx hexo generate -c _config.yml,_config.gh.yml
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
