@@ -28,12 +28,13 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies (root)
-        run: npm ci
+        run: |
+          npm ci || npm install --legacy-peer-deps --no-audit --no-fund
 
       - name: Install dependencies (theme)
         run: |
           cd themes/hexo-theme-aurora
-          npm ci || npm install
+          npm ci || npm install --legacy-peer-deps --no-audit --no-fund
 
       - name: Build site
         run: npm run build
