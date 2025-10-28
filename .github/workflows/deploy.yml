@@ -27,14 +27,28 @@ jobs:
           node-version: 18
           cache: 'npm'
 
+      - name: NPM config for legacy deps
+        run: |
+          npm config set legacy-peer-deps true
+          npm config set fund false
+          npm config set audit false
+
       - name: Install dependencies (root)
         run: |
-          npm ci || npm install --legacy-peer-deps --no-audit --no-fund
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
 
       - name: Install dependencies (theme)
         run: |
           cd themes/hexo-theme-aurora
-          npm ci || npm install --legacy-peer-deps --no-audit --no-fund
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
 
       - name: Build site
         run: npm run build
