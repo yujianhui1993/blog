@@ -13,7 +13,7 @@ site:
   author: 虞建辉
   nick: Nike_Yu
   description: 好的程序员从来不只写代码，他们还致力于优雅地解决问题！
-  link: '/'
+  link: '/blog/'
   language: cn
   multi_language: true
   logo: https://avatars.githubusercontent.com/u/7228360?s=400&u=5b2242e59ba02c0e1e7bc43eb68b070e26ec6a6e&v=4

@@ -53,7 +53,7 @@ jobs:
       - name: Build site
         run: |
           npm run clean
-          npx hexo generate -c _config.yml,_config.gh.yml
+          npx hexo generate -c _config.yml,_config.hexo-theme-aurora.yml,_config.gh.yml
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
