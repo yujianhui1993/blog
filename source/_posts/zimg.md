@@ -12,7 +12,7 @@ comments: false
 ---
 
 
-## zimg是图像存储和处理服务器。您可以使用URL参数从zimg获取压缩和缩放的图像。
+## zimg是图像存储和处理服务器。你可以使用URL参数从zimg获取压缩和缩放的图像。
 
 [官网地址：](http://zimg.buaa.us)
 ## 安装
